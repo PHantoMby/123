@@ -3,7 +3,7 @@
 # mkdir -p /home/box/web/public/{img,css,js}
 # mkdir -p /home/box/web/{uploads,etc}
 
-sudo pip2 install django==1.7.7
+#sudo pip2 install django==1.7.7
 
 sudo /etc/init.d/mysql restart
 mysql -uroot -e "create database stepic character set 'UTF8';"
